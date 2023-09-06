@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CALCULATOR</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body >
+    <fieldset style="background-image:url(image/flower-7994489_1280.webp);background-repeat: no-repeat;background-size: cover;" >
+      <form name="cal" style="background-image:url(image/flower-7994489_1280.webp);background-repeat: no-repeat;background-size: cover;">
+        <div class="display">
+          <input
+            type="text"
+            name="display"
+            class="form-control"
+            placeholder="Enter Number"
+          />
+        </div>
+
+        <div class="ac">
+          <input type="button" value="C" onclick="display.value = '' " />
+          <input
+            type="button"
+            value="DE"
+            onclick="display.value = display.value.toString().slice(0,-1)"
+          />
+          
+          <input type="button" value="/" onclick="display.value += '/'" />
+        </div>
+
+        <div class="seven">
+          <input type="button" value="7" onclick="cal.display.value += '7' " />
+          <input type="button" value="8" onclick="cal.display.value += '8' " />
+          <input type="button" value="9" onclick="cal.display.value += '9' " />
+          <input type="button" value="*" onclick="cal.display.value += '*' " />
+        </div>
+
+        <div class="four">
+          <input type="button" value="4" onclick="cal.display.value += '4' " />
+          <input type="button" value="5" onclick="cal.display.value += '5' " />
+          <input type="button" value="6" onclick="cal.display.value += '6' " />
+          <input type="button" value="-" onclick="cal.display.value += '-' " />
+        </div>
+
+        <div class="one">
+          <input type="button" value="1" onclick="cal.display.value += '1' " />
+          <input type="button" value="2" onclick="cal.display.value += '2' " />
+          <input type="button" value="3" onclick="cal.display.value += '3' " />
+          <input type="button" value="+" onclick="cal.display.value += '+' " />
+        </div>
+        <div class="zero">
+          <input
+            type="button"
+            value="00"
+            onclick="cal.display.value += '00' "
+          />
+          <input type="button" value="0" onclick="cal.display.value += '0' " />
+          <input type="button" value="." onclick="display.value = '.' " />
+          <input
+            type="button"
+            value="="
+            class="equal"
+            onclick="cal.display.value = eval(cal.display.value)"
+          />
+          
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>

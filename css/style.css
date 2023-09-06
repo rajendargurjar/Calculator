@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(218, 196, 196);
+}
+fieldset{
+    margin-top: 90px;
+    margin-left: 400px;
+    width: 50%;
+    height: 550px;
+     /* border-radius: 20px; */
+     border: 2px solid red;
+}
+form{
+    background-color: blueviolet;
+    width: 80%;
+    height: 500px;
+    margin-left: 70px;
+   margin-top: 25px;
+   box-shadow: 2px 2px 25px 0px white;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+}
+.display{
+    /* border: 3px solid rgb(230, 64, 64); */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 20px;
+}
+.display input{
+    background: transparent;
+    color: white;
+}
+.form-control{
+    height: 50px;
+}
+.seven input{
+    background-color: rgb(24, 9, 9);
+    margin: 20px 10px 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    width: 12%;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid rgb(80, 78, 78);
+}
+
+.four input{
+    background-color: rgb(24, 9, 9);
+    color: white;
+    margin: 15px 10px 15px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 12%;
+    height: 60px;
+    border-radius: 50%;
+ border: 3px solid rgb(80, 78, 78);
+}
+.one input{
+    background-color: rgb(24, 9, 9);
+    color: white;
+    margin: 15px 10px 15px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 12%;
+    height: 60px;
+    border-radius: 50%;
+  border: 3px solid rgb(80, 78, 78);
+}
+.zero input{
+    background-color: rgb(24, 9, 9);
+    color: white;
+    margin: 15px 10px 15px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 12%;
+    height: 60px;
+    border-radius: 50%;
+ border: 3px solid rgb(80, 78, 78);
+}
+.ac input{
+    background-color: rgb(61, 55, 55);
+    color: white;
+   margin: 10px 10px 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 12%;
+    height: 60px;
+    border-radius: 50%;
+  border: 3px solid rgb(80, 78, 78);
+}
+.span{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    
+}
+.zero .equal{
+    background-color: rgb(255, 107, 8);
+    border: none;
+    
+}
